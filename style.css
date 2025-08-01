@@ -1,0 +1,24 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+.gain {
+  color: #00e676;
+}
+.loss {
+  color: #ff1744;
+}
+canvas {
+  margin-top: 40px;
+}
