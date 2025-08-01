@@ -1,9 +1,9 @@
 const portfolio = [
-  { name: "NVIDIA", symbol: "NVDA", buyDate: "2020-06-10", buyPrice: 60, shares: 3 },
-  { name: "Apple", symbol: "AAPL", buyDate: "2020-07-21", buyPrice: 90, shares: 15 },
+  { name: "NVIDIA", symbol: "NVDA", buyDate: "2020-06-10", buyPrice: 60, shares: 1300 },
+  { name: "Apple", symbol: "AAPL", buyDate: "2020-07-21", buyPrice: 90, shares: 9000 },
   { name: "Google", symbol: "GOOGL", buyDate: "2021-01-15", buyPrice: 1400, shares: 2 },
-  { name: "Tesla", symbol: "TSLA", buyDate: "2020-03-11", buyPrice: 90, shares: 7 },
-  { name: "Bitcoin", symbol: "BTC/USD", buyDate: "2020-05-30", buyPrice: 8500, shares: 1.2 }
+  { name: "Tesla", symbol: "TSLA", buyDate: "2020-03-11", buyPrice: 90, shares: 17000 },
+  { name: "Bitcoin", symbol: "BTC/USD", buyDate: "2020-05-30", buyPrice: 8500, shares: 95 }
 ];
 
 const apiKey = "d13f0c2f60b14e8891b46f1eb5afbb4c";
