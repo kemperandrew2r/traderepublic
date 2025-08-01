@@ -1,0 +1,15 @@
+{
+  "name": "Trade Republic Demo",
+  "short_name": "TradeRep",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "trade_republic_icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
