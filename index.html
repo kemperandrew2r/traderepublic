@@ -3,12 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TradeRepublic Portfolio</title>
+  <title>Trade Republic</title>
+
+  <!-- Manifest für PWA -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- iPhone Icon und Theme-Farbe -->
+  <link rel="apple-touch-icon" href="trade_republic_icon.png" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Styles und Chart.js -->
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <h1>Trade Republic Live-Portfolio</h1>
+
   <table>
     <thead>
       <tr>
@@ -23,6 +33,19 @@
     </thead>
     <tbody id="portfolio-table"></tbody>
   </table>
+
+  <div id="btcChartContainer"></div>
+
+  <!-- Dein Script -->
   <script src="script.js"></script>
+
+  <!-- Optional: Service Worker für Offline-Verhalten -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(err => {
+        console.warn("ServiceWorker Registrierung fehlgeschlagen:", err);
+      });
+    }
+  </script>
 </body>
 </html>
