@@ -1,6 +1,6 @@
 {
-  "name": "Trade Republic Demo",
-  "short_name": "TradeRep",
+  "name": "Trade Republic",
+  "short_name": "TradeRepublic",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -8,8 +8,8 @@
   "icons": [
     {
       "src": "trade_republic_icon.png",
-      "sizes": "1024x1024",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "180x180"
     }
   ]
 }
